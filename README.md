@@ -25,7 +25,7 @@ For Node.js, when installing `@fav/text.trim` from npm:
 ```js
 var trim = require('@fav/text.trim');
 trim('  abc   '); // => 'abc'
-trim('_-abc--_-', 8, '_-'); // => 'abc'
+trim('_-abc--_-', '_-'); // => 'abc'
 ```
 
 For Web browsers:
@@ -46,6 +46,13 @@ trim('  abc   '); // => 'abc'
 Remove leading and trailing white spaces or *chars* from *source*.
 
 **NOTE:** This function doesn't check data types of the arguments, and assumes that they are given as per the specific data types.
+
+#### Parameters:
+
+| Parameter |  Type  | Description        |
+|-----------|:------:|--------------------|
+| source    | string | The source string. |
+| chars     | string | The characters to be trimmed. (Optional, and white space in default.) |
 
 #### Return:
 
