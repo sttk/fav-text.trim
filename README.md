@@ -1,6 +1,6 @@
 # [@fav/text.trim][repo-url] [![NPM][npm-img]][npm-url] [![MIT License][mit-img]][mit-url] [![Build Status][travis-img]][travis-url] [![Build Status][appveyor-img]][appveyor-url] [![Coverage status][coverage-img]][coverage-url]
 
-Remove leading and trailing white spaces or specified characters from a source string.
+Removes leading and trailing white spaces or specified characters from a source string.
 
 > "fav" is an abbreviation of "favorite" and also the acronym of "for all versions".
 > This package is intended to support all Node.js versions and many browsers as possible.
@@ -20,7 +20,7 @@ $ npm install --save @fav/text.trim
 
 ## Usage
 
-For Node.js, when installing `@fav/text.trim` from npm:
+For Node.js:
 
 ```js
 var trim = require('@fav/text.trim');
@@ -43,7 +43,7 @@ trim('  abc   '); // => 'abc'
 
 ### <u>trim(source [, chars]) : string</u>
 
-Remove leading and trailing white spaces or *chars* from *source*.
+Removes leading and trailing white spaces or *chars* from *source*.
 
 **NOTE:** This function doesn't check data types of the arguments, and assumes that they are given as per the specific data types.
 
@@ -104,7 +104,7 @@ This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/fav-text.trim/
-[npm-img]: https://img.shields.io/badge/npm-v0.1.0-blue.svg
+[npm-img]: https://img.shields.io/badge/npm-v1.0.0-blue.svg
 [npm-url]: https://www.npmjs.com/package/@fav/text.trim
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/licenses/MIT

@@ -1,7 +1,7 @@
 {
   "name": "@fav/text.trim",
-  "version": "0.1.0",
-  "description": "Remove leading and trailing white spaces or specified characters from a source string.",
+  "version": "1.0.0",
+  "description": "Removes leading and trailing white spaces or specified characters from a source string.",
   "main": "index.js",
   "files": [
     "index.js",
